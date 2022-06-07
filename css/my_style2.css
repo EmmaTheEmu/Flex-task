@@ -1,0 +1,89 @@
+/* Darker style */
+
+body {
+    /* Got the colors from uigradients.com */
+    background: linear-gradient(to right, #c31432, #240b36);
+    margin: 0;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+a:link,
+a,
+a:visited,
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#poems {
+    display: flex;
+    justify-content: center;
+}
+
+.poem_box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 100px;
+    border-radius: 4px;
+    opacity: 0.75;
+    padding: 10px 20px;
+    background: darkorchid;
+    box-shadow: 4px 4px 4px black;
+    margin-right: 100px;
+    color: white;
+    transition: 0.1s;
+}
+
+.poem_box:hover {
+    opacity: 1;
+}
+
+.poem_box>p {
+    line-height: 22px;
+}
+
+#flex_quotes {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_box {
+    position: relative;
+    box-shadow: 4px 4px 4px black;
+    color: white;
+    font-style: italic;
+    background: crimson;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+
+.flex_box:hover {
+    animation-duration: 1.25s;
+    animation-name: boxup;
+}
+
+@keyframes boxup {
+    0% {
+        bottom: 0px;
+    }
+
+    25% {
+        bottom: 5px;
+    }
+
+    50% {
+        bottom: -5px;
+    }
+
+    75% {
+        bottom: 0px;
+    }
+}

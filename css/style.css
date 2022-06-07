@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 98vw;
+    margin: auto;
+    background-image: url("../img/hexagon-honeycomb-grid-pixel-backgruond-free-vector.jpg");
+    background-size: cover;
+}
+
+a:link,
+a,
+a:visited,
+h1 {
+    position: relative;
+    top: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    height: 12px;
+    border: none;
+    background: white;
+}
+
+#poems {
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.poem_box {
+    box-shadow: 8px 8px 10px;
+    background-color: lightgray;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    margin: 40px;
+}
+
+.poem_box>p {
+    margin-left: 10px;
+    line-height: 23px;
+}
+
+#flex_quotes {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.flex_box {
+    background-color: cyan;
+    opacity: 0.8;
+    border: 4px dotted red;
+    height: 80px;
+    margin-right: 20px;
+    width: 100px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.flex_box>p {
+    text-align: center;
+    /* It should be yellow but with the background I found, dark orange looks actually readable */
+    color: darkorange;
+}
